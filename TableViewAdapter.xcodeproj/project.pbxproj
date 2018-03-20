@@ -14,6 +14,8 @@
 		0D34A9552060836600F50E34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D34A9532060836600F50E34 /* LaunchScreen.storyboard */; };
 		0D34A9602060836600F50E34 /* TableViewAdapterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D34A95F2060836600F50E34 /* TableViewAdapterTests.swift */; };
 		0D34A96B2060836600F50E34 /* TableViewAdapterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D34A96A2060836600F50E34 /* TableViewAdapterUITests.swift */; };
+		0D34A97A206083F400F50E34 /* TableViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D34A979206083F400F50E34 /* TableViewAdapter.swift */; };
+		0D34A97C2060843F00F50E34 /* TableCellConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D34A97B2060843F00F50E34 /* TableCellConfigurator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		0D34A9662060836600F50E34 /* TableViewAdapterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewAdapterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D34A96A2060836600F50E34 /* TableViewAdapterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAdapterUITests.swift; sourceTree = "<group>"; };
 		0D34A96C2060836600F50E34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D34A979206083F400F50E34 /* TableViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAdapter.swift; sourceTree = "<group>"; };
+		0D34A97B2060843F00F50E34 /* TableCellConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCellConfigurator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		0D34A9492060836600F50E34 /* TableViewAdapter */ = {
 			isa = PBXGroup;
 			children = (
+				0D34A978206083E500F50E34 /* TableViewAdapter */,
 				0D34A94A2060836600F50E34 /* AppDelegate.swift */,
 				0D34A94C2060836600F50E34 /* ViewController.swift */,
 				0D34A94E2060836600F50E34 /* Main.storyboard */,
@@ -123,6 +128,15 @@
 				0D34A96C2060836600F50E34 /* Info.plist */,
 			);
 			path = TableViewAdapterUITests;
+			sourceTree = "<group>";
+		};
+		0D34A978206083E500F50E34 /* TableViewAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				0D34A979206083F400F50E34 /* TableViewAdapter.swift */,
+				0D34A97B2060843F00F50E34 /* TableCellConfigurator.swift */,
+			);
+			path = TableViewAdapter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D34A97C2060843F00F50E34 /* TableCellConfigurator.swift in Sources */,
 				0D34A94D2060836600F50E34 /* ViewController.swift in Sources */,
 				0D34A94B2060836600F50E34 /* AppDelegate.swift in Sources */,
+				0D34A97A206083F400F50E34 /* TableViewAdapter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
